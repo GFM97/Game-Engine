@@ -49,7 +49,6 @@ public class Menu: MonoBehaviour
 
 	public void OpenLevelSelect()
 	{
-		PlayerPrefs.SetInt("Level1", 1);
 		ls.SetActive(true);
 	}
 

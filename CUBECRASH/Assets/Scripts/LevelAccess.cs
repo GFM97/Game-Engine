@@ -10,10 +10,8 @@ public class LevelAccess : MonoBehaviour {
 
 	void Awake()
 	{
-		bool active = PlayerPrefs.GetInt ("level") <= level;
-		image.SetActive (active);
-
+		bool active = PlayerPrefs.GetInt ("level") > level || level == 1;
+		image.SetActive (!active);
 		GetComponent<Button> ().interactable = active;
 	}
-
 }
