@@ -1468,8 +1468,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Obstacle: {fileID: 1406613454330748, guid: 81f563ad7cab64038a6b16ea0ed6468c, type: 2}
-  min: -5
-  max: 5
+  min: -3
+  max: 3
 --- !u!1 &1604364936
 GameObject:
   m_ObjectHideFlags: 0
